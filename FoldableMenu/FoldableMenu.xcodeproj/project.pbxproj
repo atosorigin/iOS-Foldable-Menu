@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6EEDCF7CCE4CF683244B79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 402BBD9B4A984EE0A61B6FD0 /* libPods.a */; };
+		A5525816169C6EE700DEF85C /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5525814169C6EE700DEF85C /* ContentView.m */; };
+		A5525817169C6EE700DEF85C /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5525815169C6EE700DEF85C /* ContentView.xib */; };
 		A5E77903169C30B200383595 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E77902169C30B200383595 /* MapKit.framework */; };
-		A5E77906169C5CBA00383595 /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E77905169C5CB900383595 /* ContentView.xib */; };
-		A5E77909169C5D6300383595 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E77908169C5D6300383595 /* ContentView.m */; };
 		FD2C5355169B0C5B005D2231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5354169B0C5B005D2231 /* UIKit.framework */; };
 		FD2C5357169B0C5B005D2231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5356169B0C5B005D2231 /* Foundation.framework */; };
 		FD2C5359169B0C5B005D2231 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5358169B0C5B005D2231 /* CoreGraphics.framework */; };
@@ -21,24 +22,16 @@
 		FD2C536B169B0C5C005D2231 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2C536A169B0C5C005D2231 /* Default-568h@2x.png */; };
 		FD2C536E169B0C5C005D2231 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2C536C169B0C5C005D2231 /* MainStoryboard.storyboard */; };
 		FD2C5371169B0C5C005D2231 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5370169B0C5C005D2231 /* ViewController.m */; };
-		FD2C5397169B2187005D2231 /* FacingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5381169B2187005D2231 /* FacingView.m */; };
-		FD2C5398169B2187005D2231 /* FoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5383169B2187005D2231 /* FoldView.m */; };
-		FD2C5399169B2187005D2231 /* MultiFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5385169B2187005D2231 /* MultiFoldView.m */; };
-		FD2C539A169B2187005D2231 /* PaperFoldNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5388169B2187005D2231 /* PaperFoldNavigationController.m */; };
-		FD2C539B169B2187005D2231 /* PaperFoldResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD2C5389169B2187005D2231 /* PaperFoldResources.bundle */; };
-		FD2C539C169B2187005D2231 /* PaperFoldSwipeHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C538B169B2187005D2231 /* PaperFoldSwipeHintView.m */; };
-		FD2C539D169B2187005D2231 /* PaperFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C538D169B2187005D2231 /* PaperFoldView.m */; };
-		FD2C53A0169B2187005D2231 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5392169B2187005D2231 /* ShadowView.m */; };
-		FD2C53A1169B2187005D2231 /* TouchThroughUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5394169B2187005D2231 /* TouchThroughUIView.m */; };
-		FD2C53A2169B2187005D2231 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C5396169B2187005D2231 /* UIView+Screenshot.m */; };
 		FD2C53A5169B21C3005D2231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C53A4169B21C3005D2231 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3085BF0139C740D8A6D4AE53 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		402BBD9B4A984EE0A61B6FD0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5525813169C6EE700DEF85C /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		A5525814169C6EE700DEF85C /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		A5525815169C6EE700DEF85C /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
 		A5E77902169C30B200383595 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		A5E77905169C5CB900383595 /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
-		A5E77907169C5D6300383595 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
-		A5E77908169C5D6300383595 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 		FD2C5350169B0C5B005D2231 /* FoldableMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldableMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2C5354169B0C5B005D2231 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD2C5356169B0C5B005D2231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,26 +48,6 @@
 		FD2C536D169B0C5C005D2231 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FD2C536F169B0C5C005D2231 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FD2C5370169B0C5C005D2231 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FD2C5380169B2187005D2231 /* FacingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacingView.h; sourceTree = "<group>"; };
-		FD2C5381169B2187005D2231 /* FacingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacingView.m; sourceTree = "<group>"; };
-		FD2C5382169B2187005D2231 /* FoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldView.h; sourceTree = "<group>"; };
-		FD2C5383169B2187005D2231 /* FoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldView.m; sourceTree = "<group>"; };
-		FD2C5384169B2187005D2231 /* MultiFoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiFoldView.h; sourceTree = "<group>"; };
-		FD2C5385169B2187005D2231 /* MultiFoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiFoldView.m; sourceTree = "<group>"; };
-		FD2C5386169B2187005D2231 /* PaperFoldConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldConstants.h; sourceTree = "<group>"; };
-		FD2C5387169B2187005D2231 /* PaperFoldNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldNavigationController.h; sourceTree = "<group>"; };
-		FD2C5388169B2187005D2231 /* PaperFoldNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldNavigationController.m; sourceTree = "<group>"; };
-		FD2C5389169B2187005D2231 /* PaperFoldResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PaperFoldResources.bundle; sourceTree = "<group>"; };
-		FD2C538A169B2187005D2231 /* PaperFoldSwipeHintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldSwipeHintView.h; sourceTree = "<group>"; };
-		FD2C538B169B2187005D2231 /* PaperFoldSwipeHintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldSwipeHintView.m; sourceTree = "<group>"; };
-		FD2C538C169B2187005D2231 /* PaperFoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldView.h; sourceTree = "<group>"; };
-		FD2C538D169B2187005D2231 /* PaperFoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldView.m; sourceTree = "<group>"; };
-		FD2C5391169B2187005D2231 /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
-		FD2C5392169B2187005D2231 /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
-		FD2C5393169B2187005D2231 /* TouchThroughUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchThroughUIView.h; sourceTree = "<group>"; };
-		FD2C5394169B2187005D2231 /* TouchThroughUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchThroughUIView.m; sourceTree = "<group>"; };
-		FD2C5395169B2187005D2231 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
-		FD2C5396169B2187005D2231 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
 		FD2C53A4169B21C3005D2231 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -88,6 +61,7 @@
 				FD2C5355169B0C5B005D2231 /* UIKit.framework in Frameworks */,
 				FD2C5357169B0C5B005D2231 /* Foundation.framework in Frameworks */,
 				FD2C5359169B0C5B005D2231 /* CoreGraphics.framework in Frameworks */,
+				3D6EEDCF7CCE4CF683244B79 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +74,7 @@
 				FD2C535A169B0C5B005D2231 /* FoldableMenu */,
 				FD2C5353169B0C5B005D2231 /* Frameworks */,
 				FD2C5351169B0C5B005D2231 /* Products */,
+				3085BF0139C740D8A6D4AE53 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +94,7 @@
 				FD2C5354169B0C5B005D2231 /* UIKit.framework */,
 				FD2C5356169B0C5B005D2231 /* Foundation.framework */,
 				FD2C5358169B0C5B005D2231 /* CoreGraphics.framework */,
+				402BBD9B4A984EE0A61B6FD0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,16 +102,15 @@
 		FD2C535A169B0C5B005D2231 /* FoldableMenu */ = {
 			isa = PBXGroup;
 			children = (
-				FD2C537F169B2187005D2231 /* PaperFold */,
+				A5525813169C6EE700DEF85C /* ContentView.h */,
+				A5525814169C6EE700DEF85C /* ContentView.m */,
+				A5525815169C6EE700DEF85C /* ContentView.xib */,
 				FD2C5363169B0C5B005D2231 /* AppDelegate.h */,
 				FD2C5364169B0C5B005D2231 /* AppDelegate.m */,
 				FD2C536C169B0C5C005D2231 /* MainStoryboard.storyboard */,
 				FD2C536F169B0C5C005D2231 /* ViewController.h */,
 				FD2C5370169B0C5C005D2231 /* ViewController.m */,
 				FD2C535B169B0C5B005D2231 /* Supporting Files */,
-				A5E77905169C5CB900383595 /* ContentView.xib */,
-				A5E77907169C5D6300383595 /* ContentView.h */,
-				A5E77908169C5D6300383595 /* ContentView.m */,
 			);
 			path = FoldableMenu;
 			sourceTree = "<group>";
@@ -154,42 +129,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FD2C537F169B2187005D2231 /* PaperFold */ = {
-			isa = PBXGroup;
-			children = (
-				FD2C5380169B2187005D2231 /* FacingView.h */,
-				FD2C5381169B2187005D2231 /* FacingView.m */,
-				FD2C5382169B2187005D2231 /* FoldView.h */,
-				FD2C5383169B2187005D2231 /* FoldView.m */,
-				FD2C5384169B2187005D2231 /* MultiFoldView.h */,
-				FD2C5385169B2187005D2231 /* MultiFoldView.m */,
-				FD2C5386169B2187005D2231 /* PaperFoldConstants.h */,
-				FD2C5387169B2187005D2231 /* PaperFoldNavigationController.h */,
-				FD2C5388169B2187005D2231 /* PaperFoldNavigationController.m */,
-				FD2C5389169B2187005D2231 /* PaperFoldResources.bundle */,
-				FD2C538A169B2187005D2231 /* PaperFoldSwipeHintView.h */,
-				FD2C538B169B2187005D2231 /* PaperFoldSwipeHintView.m */,
-				FD2C538C169B2187005D2231 /* PaperFoldView.h */,
-				FD2C538D169B2187005D2231 /* PaperFoldView.m */,
-				FD2C538E169B2187005D2231 /* Resources */,
-				FD2C5391169B2187005D2231 /* ShadowView.h */,
-				FD2C5392169B2187005D2231 /* ShadowView.m */,
-				FD2C5393169B2187005D2231 /* TouchThroughUIView.h */,
-				FD2C5394169B2187005D2231 /* TouchThroughUIView.m */,
-				FD2C5395169B2187005D2231 /* UIView+Screenshot.h */,
-				FD2C5396169B2187005D2231 /* UIView+Screenshot.m */,
-			);
-			name = PaperFold;
-			path = PaperFold/PaperFold/PaperFold/PaperFold;
-			sourceTree = SOURCE_ROOT;
-		};
-		FD2C538E169B2187005D2231 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,6 +139,7 @@
 				FD2C534C169B0C5B005D2231 /* Sources */,
 				FD2C534D169B0C5B005D2231 /* Frameworks */,
 				FD2C534E169B0C5B005D2231 /* Resources */,
+				27E1E5780AB5427EB74DAAAE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,12 +186,28 @@
 				FD2C5369169B0C5C005D2231 /* Default@2x.png in Resources */,
 				FD2C536B169B0C5C005D2231 /* Default-568h@2x.png in Resources */,
 				FD2C536E169B0C5C005D2231 /* MainStoryboard.storyboard in Resources */,
-				FD2C539B169B2187005D2231 /* PaperFoldResources.bundle in Resources */,
-				A5E77906169C5CBA00383595 /* ContentView.xib in Resources */,
+				A5525817169C6EE700DEF85C /* ContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E1E5780AB5427EB74DAAAE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD2C534C169B0C5B005D2231 /* Sources */ = {
@@ -261,16 +217,7 @@
 				FD2C5361169B0C5B005D2231 /* main.m in Sources */,
 				FD2C5365169B0C5B005D2231 /* AppDelegate.m in Sources */,
 				FD2C5371169B0C5C005D2231 /* ViewController.m in Sources */,
-				FD2C5397169B2187005D2231 /* FacingView.m in Sources */,
-				FD2C5398169B2187005D2231 /* FoldView.m in Sources */,
-				FD2C5399169B2187005D2231 /* MultiFoldView.m in Sources */,
-				FD2C539A169B2187005D2231 /* PaperFoldNavigationController.m in Sources */,
-				FD2C539C169B2187005D2231 /* PaperFoldSwipeHintView.m in Sources */,
-				FD2C539D169B2187005D2231 /* PaperFoldView.m in Sources */,
-				FD2C53A0169B2187005D2231 /* ShadowView.m in Sources */,
-				FD2C53A1169B2187005D2231 /* TouchThroughUIView.m in Sources */,
-				FD2C53A2169B2187005D2231 /* UIView+Screenshot.m in Sources */,
-				A5E77909169C5D6300383595 /* ContentView.m in Sources */,
+				A5525816169C6EE700DEF85C /* ContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +295,7 @@
 		};
 		FD2C5375169B0C5C005D2231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3085BF0139C740D8A6D4AE53 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoldableMenu/FoldableMenu-Prefix.pch";
@@ -359,6 +307,7 @@
 		};
 		FD2C5376169B0C5C005D2231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3085BF0139C740D8A6D4AE53 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoldableMenu/FoldableMenu-Prefix.pch";
