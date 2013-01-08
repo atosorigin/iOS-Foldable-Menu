@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ContentView.h"
 
 @interface ViewController ()
 
@@ -24,11 +25,12 @@
     _paperFoldView = [[PaperFoldView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height)];
     [_containerView addSubview:_paperFoldView];
     
-    _mapView = [[MKMapView alloc] initWithFrame:_paperFoldView.frame];
+    //_mapView = [[MKMapView alloc] initWithFrame:_paperFoldView.frame];
     //[_paperFoldView setCenterContentView:_mapView];
-    UIView *temp = [[UIView alloc] initWithFrame:_paperFoldView.frame];
-    [temp setBackgroundColor:[UIColor greenColor]];
-    [_paperFoldView setCenterContentView: temp];
+    //UIView *temp = [[UIView alloc] initWithFrame:_paperFoldView.frame];
+    //[temp setBackgroundColor:[UIColor greenColor]];
+    ContentView *cv = [ContentView loadFromNibWithPanDelegate:_paperFoldView];
+    [_paperFoldView setCenterContentView: cv];
     
     _topView = [[UIView alloc] initWithFrame:CGRectMake(0,0,[self.view bounds].size.width,60)];
     [_topView setBackgroundColor:[UIColor redColor]];
@@ -44,6 +46,9 @@
     [_topView addSubview:topShadowView];
     
     [_paperFoldView setTopFoldContentView:_topView topViewFoldCount:1 topViewPullFactor:0.9];
+    [_paperFoldView setPaperFoldInitialPanDirection:PaperFoldInitialPanDirectionVertical];
+    
+    //[_paperFoldView setEnableTopFoldDragging:NO];
     
     /*
      

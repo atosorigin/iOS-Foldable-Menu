@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A5E77903169C30B200383595 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E77902169C30B200383595 /* MapKit.framework */; };
+		A5E77906169C5CBA00383595 /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E77905169C5CB900383595 /* ContentView.xib */; };
+		A5E77909169C5D6300383595 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E77908169C5D6300383595 /* ContentView.m */; };
 		FD2C5355169B0C5B005D2231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5354169B0C5B005D2231 /* UIKit.framework */; };
 		FD2C5357169B0C5B005D2231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5356169B0C5B005D2231 /* Foundation.framework */; };
 		FD2C5359169B0C5B005D2231 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5358169B0C5B005D2231 /* CoreGraphics.framework */; };
@@ -34,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		A5E77902169C30B200383595 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A5E77905169C5CB900383595 /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+		A5E77907169C5D6300383595 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		A5E77908169C5D6300383595 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 		FD2C5350169B0C5B005D2231 /* FoldableMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldableMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2C5354169B0C5B005D2231 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD2C5356169B0C5B005D2231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +133,9 @@
 				FD2C536F169B0C5C005D2231 /* ViewController.h */,
 				FD2C5370169B0C5C005D2231 /* ViewController.m */,
 				FD2C535B169B0C5B005D2231 /* Supporting Files */,
+				A5E77905169C5CB900383595 /* ContentView.xib */,
+				A5E77907169C5D6300383595 /* ContentView.h */,
+				A5E77908169C5D6300383595 /* ContentView.m */,
 			);
 			path = FoldableMenu;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 				FD2C536B169B0C5C005D2231 /* Default-568h@2x.png in Resources */,
 				FD2C536E169B0C5C005D2231 /* MainStoryboard.storyboard in Resources */,
 				FD2C539B169B2187005D2231 /* PaperFoldResources.bundle in Resources */,
+				A5E77906169C5CBA00383595 /* ContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				FD2C53A0169B2187005D2231 /* ShadowView.m in Sources */,
 				FD2C53A1169B2187005D2231 /* TouchThroughUIView.m in Sources */,
 				FD2C53A2169B2187005D2231 /* UIView+Screenshot.m in Sources */,
+				A5E77909169C5D6300383595 /* ContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
