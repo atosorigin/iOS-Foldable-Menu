@@ -10,6 +10,14 @@
 		3D6EEDCF7CCE4CF683244B79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 402BBD9B4A984EE0A61B6FD0 /* libPods.a */; };
 		A5525816169C6EE700DEF85C /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5525814169C6EE700DEF85C /* ContentView.m */; };
 		A5525817169C6EE700DEF85C /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5525815169C6EE700DEF85C /* ContentView.xib */; };
+		A5B8AEED169DAD4100106A42 /* BlindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8AEEC169DAD4100106A42 /* BlindViewController.m */; };
+		A5B8AEF1169DB05400106A42 /* UIMenuBlind.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8AEF0169DB05400106A42 /* UIMenuBlind.m */; };
+		A5B8AF01169EDD2F00106A42 /* BlindBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B8AEFD169EDD2F00106A42 /* BlindBG.png */; };
+		A5B8AF02169EDD2F00106A42 /* BlindBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B8AEFE169EDD2F00106A42 /* BlindBG@2x.png */; };
+		A5B8AF03169EDD2F00106A42 /* BlindTab.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B8AEFF169EDD2F00106A42 /* BlindTab.png */; };
+		A5B8AF04169EDD2F00106A42 /* BlindTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B8AF00169EDD2F00106A42 /* BlindTab@2x.png */; };
+		A5B8AF08169EDD7000106A42 /* BlindContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B8AF07169EDD7000106A42 /* BlindContentView.xib */; };
+		A5B8AF0B169EDE1800106A42 /* BlindContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8AF0A169EDE1800106A42 /* BlindContentView.m */; };
 		A5E77903169C30B200383595 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E77902169C30B200383595 /* MapKit.framework */; };
 		FD2C5355169B0C5B005D2231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5354169B0C5B005D2231 /* UIKit.framework */; };
 		FD2C5357169B0C5B005D2231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2C5356169B0C5B005D2231 /* Foundation.framework */; };
@@ -31,6 +39,17 @@
 		A5525813169C6EE700DEF85C /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
 		A5525814169C6EE700DEF85C /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 		A5525815169C6EE700DEF85C /* ContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
+		A5B8AEEB169DAD4100106A42 /* BlindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindViewController.h; sourceTree = "<group>"; };
+		A5B8AEEC169DAD4100106A42 /* BlindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindViewController.m; sourceTree = "<group>"; };
+		A5B8AEEF169DB05400106A42 /* UIMenuBlind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMenuBlind.h; sourceTree = "<group>"; };
+		A5B8AEF0169DB05400106A42 /* UIMenuBlind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMenuBlind.m; sourceTree = "<group>"; };
+		A5B8AEFD169EDD2F00106A42 /* BlindBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlindBG.png; sourceTree = "<group>"; };
+		A5B8AEFE169EDD2F00106A42 /* BlindBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlindBG@2x.png"; sourceTree = "<group>"; };
+		A5B8AEFF169EDD2F00106A42 /* BlindTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlindTab.png; sourceTree = "<group>"; };
+		A5B8AF00169EDD2F00106A42 /* BlindTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlindTab@2x.png"; sourceTree = "<group>"; };
+		A5B8AF07169EDD7000106A42 /* BlindContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlindContentView.xib; sourceTree = "<group>"; };
+		A5B8AF09169EDE1800106A42 /* BlindContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlindContentView.h; sourceTree = "<group>"; };
+		A5B8AF0A169EDE1800106A42 /* BlindContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlindContentView.m; sourceTree = "<group>"; };
 		A5E77902169C30B200383595 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FD2C5350169B0C5B005D2231 /* FoldableMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldableMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2C5354169B0C5B005D2231 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -68,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5B8AF06169EDD3C00106A42 /* BlindExample */ = {
+			isa = PBXGroup;
+			children = (
+				A5B8AEEB169DAD4100106A42 /* BlindViewController.h */,
+				A5B8AEEC169DAD4100106A42 /* BlindViewController.m */,
+				A5B8AEEF169DB05400106A42 /* UIMenuBlind.h */,
+				A5B8AEF0169DB05400106A42 /* UIMenuBlind.m */,
+				A5B8AEFD169EDD2F00106A42 /* BlindBG.png */,
+				A5B8AEFE169EDD2F00106A42 /* BlindBG@2x.png */,
+				A5B8AEFF169EDD2F00106A42 /* BlindTab.png */,
+				A5B8AF00169EDD2F00106A42 /* BlindTab@2x.png */,
+				A5B8AF07169EDD7000106A42 /* BlindContentView.xib */,
+				A5B8AF09169EDE1800106A42 /* BlindContentView.h */,
+				A5B8AF0A169EDE1800106A42 /* BlindContentView.m */,
+			);
+			name = BlindExample;
+			sourceTree = "<group>";
+		};
 		FD2C5345169B0C5B005D2231 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +148,7 @@
 				FD2C536F169B0C5C005D2231 /* ViewController.h */,
 				FD2C5370169B0C5C005D2231 /* ViewController.m */,
 				FD2C535B169B0C5B005D2231 /* Supporting Files */,
+				A5B8AF06169EDD3C00106A42 /* BlindExample */,
 			);
 			path = FoldableMenu;
 			sourceTree = "<group>";
@@ -187,6 +225,11 @@
 				FD2C536B169B0C5C005D2231 /* Default-568h@2x.png in Resources */,
 				FD2C536E169B0C5C005D2231 /* MainStoryboard.storyboard in Resources */,
 				A5525817169C6EE700DEF85C /* ContentView.xib in Resources */,
+				A5B8AF01169EDD2F00106A42 /* BlindBG.png in Resources */,
+				A5B8AF02169EDD2F00106A42 /* BlindBG@2x.png in Resources */,
+				A5B8AF03169EDD2F00106A42 /* BlindTab.png in Resources */,
+				A5B8AF04169EDD2F00106A42 /* BlindTab@2x.png in Resources */,
+				A5B8AF08169EDD7000106A42 /* BlindContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +261,9 @@
 				FD2C5365169B0C5B005D2231 /* AppDelegate.m in Sources */,
 				FD2C5371169B0C5C005D2231 /* ViewController.m in Sources */,
 				A5525816169C6EE700DEF85C /* ContentView.m in Sources */,
+				A5B8AEED169DAD4100106A42 /* BlindViewController.m in Sources */,
+				A5B8AEF1169DB05400106A42 /* UIMenuBlind.m in Sources */,
+				A5B8AF0B169EDE1800106A42 /* BlindContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +346,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoldableMenu/FoldableMenu-Prefix.pch";
 				INFOPLIST_FILE = "FoldableMenu/FoldableMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -312,6 +359,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoldableMenu/FoldableMenu-Prefix.pch";
 				INFOPLIST_FILE = "FoldableMenu/FoldableMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

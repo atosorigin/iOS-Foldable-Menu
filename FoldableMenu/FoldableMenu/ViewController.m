@@ -32,7 +32,7 @@
     ContentView *cv = [ContentView loadFromNibWithPanDelegate:_paperFoldView];
     [_paperFoldView setCenterContentView: cv];
     
-    _topView = [[UIView alloc] initWithFrame:CGRectMake(0,0,[self.view bounds].size.width,60)];
+    _topView = [[UIView alloc] initWithFrame:CGRectMake(0,0,[self.view bounds].size.width,55)];
     [_topView setBackgroundColor:[UIColor redColor]];
     UILabel *topLabel = [[UILabel alloc] initWithFrame:_topView.frame];
     [topLabel setText:@"A"];
